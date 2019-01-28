@@ -9,7 +9,7 @@ pipeline {
     }
     post {
         always {
-            junit '**/build/test-reports/*.xml'
+            junit '/home/rchimaku/test-reports/*.xml'
         }
     }
 }
