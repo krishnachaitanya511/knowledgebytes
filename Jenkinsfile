@@ -6,7 +6,7 @@ pipeline {
                 
                 
                 
-                
+                sh 'mvn --version'
                 
             }
         }
