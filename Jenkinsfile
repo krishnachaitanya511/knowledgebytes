@@ -1,4 +1,5 @@
- agent any
+pipeline {
+    agent any
 
     environment {
         DISABLE_AUTH = 'true'
@@ -11,3 +12,5 @@
                 sh 'printenv'
             }
         }
+    }
+}
